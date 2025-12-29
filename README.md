@@ -1,2 +1,2 @@
 # LibCalculatorUtility
-LibCalculatorUtility
+Библиотека для утилиты-калькулятора
