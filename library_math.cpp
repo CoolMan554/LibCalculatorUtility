@@ -18,8 +18,9 @@ double division(double num1, double num2) {
 }
 
 double exponentiation(double num, double degree) {
-    if (degree == 0)
+    if (degree == 0) {
         return 1;
+    }
 
     double res = num;
     for (int i = 0; i < degree; i++) {
@@ -28,9 +29,10 @@ double exponentiation(double num, double degree) {
     return res;
 }
 
-double factorial(double num) {
-    if (num == 0)
+int factorial(int num) {
+    if (num == 0) {
         return 1;
+    }
 
     return num * factorial(num - 1);
 }

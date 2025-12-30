@@ -11,5 +11,5 @@ double division(double num1, double num2);
 
 double exponentiation(double num, double degree);
 
-double factorial(double num);
+int factorial(int num);
 } // namespace library_math
